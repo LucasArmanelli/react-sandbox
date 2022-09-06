@@ -3,7 +3,8 @@ import React from "react";
 import UseRefExemple2 from "./components/UseRefExemple2";
 import UseRefExemple3 from "./components/UseRefExemple3";
 import UseMemoExemple from "./components/UseMemoExemple"; */
-import UseCallbackExemple from './components/UseCallbackExemple'
+// import UseCallbackExemple from './components/UseCallbackExemple'
+import CustomHooksExample1 from "./components/CustomHooksExample1";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <UseRefExemple2 />
       <UseRefExemple3 />
       <UseMemoExemple /> */}
-      <UseCallbackExemple />
+      <CustomHooksExample1 />
     </div>
   );
 }
